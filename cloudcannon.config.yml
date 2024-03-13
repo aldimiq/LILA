@@ -1,7 +1,8 @@
+source: public
 paths:
   uploads: uploads
   static: ''
   collections: ''
   data: ''
   layouts:
-timezone: Etc/UTC
+timezone: Etc/GMT+7
