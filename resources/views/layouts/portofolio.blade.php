@@ -2,7 +2,7 @@
 <div id="portfolio">
     <div class="container-fluid p-0">
         <p></p>
-        <h2 class="text-center mt-0 ">Portofolio</h2>
+        <h2 class="text-center mt-0 ">Portofolio</h2><hr>
         <p></p> 
         <div class="row g-0">
             <div class="col-lg-4 col-sm-6">
