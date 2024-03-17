@@ -11,28 +11,32 @@
                     <div class="col-lg-12 align-self-end">
                         <h1 class="text-white font-weight-bold">Capacity Building and Technical Assistance</h1>
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
+                    <div class="col-lg-8 align-self-baseline"><br>
                         <a class="btn btn-primary btn-xl" href="#thematics">Find Out More</a>
                     </div>                    
                 </div>
             </div>
         </header>
         <!-- Thematics-->
-        <section class="page-section-thematics " id="thematics">
-            <div class="container px-4 px-lg-5">
-                <h4 class="text-center mt-0 fclila">
-                    Building, improving, and maximizing capacities to design, implement, monitor, and evaluate program and 
-                    organizational management to achieve sustainability targets.
-                </h4>  
+        <section id="thematics">
+            <div class="container-fluid ">
+                <div class="row g-0 px-lg-5 py-lg-3 text-center fclila ">
+                    <p>
+                        <h4>
+                            Building, improving, and maximizing capacities to design, implement, monitor, and 
+                            evaluate program and organizational management to achieve sustainability targets.
+                        </h4> 
+                    </p>
+                </div>
             </div>
         </section>
         <!-- Services-->
         <section id="services">
             <div class="container-fluid">
-                <div class="row g-0 text-white text-center">
+                <div class="row g-0 text-white text-center py-lg-2">
                     <div class="col-lg-4 bg-primary">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Capacity Building and Technical Assistance/1.png">
                         </a>
                     </div>
                     <div class="col-lg-8 gx-4 bg-primary ">
@@ -45,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center mt-lg-2 ">
+                <div class="row g-0 fclila text-center py-lg-2">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -56,15 +60,15 @@
                         </p>
                     </div>
                     <div class="col-lg-4 ">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Capacity Building and Technical Assistance/2.png">
                         </a>
                     </div>
                 </div>
-                <div class="row g-0 text-white text-center mt-lg-2">
+                <div class="row g-0 text-white text-center py-lg-2">
                     <div class="col-lg-4 bg-primary">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Capacity Building and Technical Assistance/3.png">
                         </a>
                     </div>
                     <div class="col-lg-8 gx-4 bg-primary ">
@@ -77,7 +81,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center mt-lg-2 ">
+                <div class="row g-0 fclila text-center py-lg-2">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -88,25 +92,9 @@
                         </p>
                     </div>
                     <div class="col-lg-4 ">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Capacity Building and Technical Assistance/4.png">
                         </a>
-                    </div>
-                </div>
-                <div class="row g-0 text-white text-center mt-lg-2">
-                    <div class="col-lg-4 bg-primary">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-8 gx-4 bg-primary ">
-                        <p>
-                            <br>
-                            <h3>Project Management System and Tools</h3>
-                            <hr>
-                            Developing collaborative system and tools that facilitate the implementation of project management cycle across 
-                            divisions/units to increase overall performance within an enterprise.
-                        </p>
                     </div>
                 </div>
             </div>

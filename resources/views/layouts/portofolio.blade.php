@@ -1,6 +1,6 @@
 <!-- Portfolio-->
 <div id="portfolio">
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-2">
         <p></p>
         <h2 class="text-center mt-0 ">Portofolio</h2><hr>
         <p></p> 

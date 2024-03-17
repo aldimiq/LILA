@@ -34,16 +34,54 @@
             </div>
         </section>
         {{-- Our Teams --}}
-        <section class="page-section-services-esa bg-primary" id="Teams">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-12 py-5 text-center text-white ">
-                        <h3>Our Teams</h3><hr>
-                        <p >
+        <section id="Teams">
+            <div class="container-fluid ">
+                <div class="row g-0  ">
+                    <div class="row g-0 px-lg-5 text-center rounded-2 text-white  bg-primary">
+                        <p>
+                            <h3>Our Teams</h3><hr>
                             Our core team and associates continue to evolve enabling us to provide technical expertise and consultancy in nature-based 
                             solutions, corporate and program management, organizational change management, and system development and integration to help 
                             nature-based enterprises adapting their new business model.
                         </p>
+                    </div>
+                    <div class="row g-0 py-4 text-center ">
+                        <div class="col-lg-3 col-sm-6 my-2">
+                            <div class="rectangle-avatar bg-primary">
+                                <p class="text-white mx-3">
+                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    NAME<br>
+                                    <b>POSITION</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-2">
+                            <div class="rectangle-avatar bg-primary">
+                                <p class="text-white mx-3">
+                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    NAME<br>
+                                    <b>POSITION</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-2">
+                            <div class="rectangle-avatar bg-primary">
+                                <p class="text-white mx-3">
+                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    NAME<br>
+                                    <b>POSITION</b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-2">
+                            <div class="rectangle-avatar bg-primary">
+                                <p class="text-white mx-3">
+                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    NAME<br>
+                                    <b>POSITION</b>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

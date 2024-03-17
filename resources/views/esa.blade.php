@@ -11,28 +11,32 @@
                     <div class="col-lg-12 align-self-end">
                         <h1 class="text-white font-weight-bold">Environmental and Social Assesment</h1>
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
+                    <div class="col-lg-8 align-self-baseline"><br>
                         <a class="btn btn-primary btn-xl" href="#thematics">Find Out More</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Thematics-->
-        <section class="page-section-thematics " id="thematics">
-            <div class="container px-4 px-lg-5">
-                <h4 class="text-center mt-0 fclila">
-                    Identify opportunities to increase the sustainability of forest management through nature-based solutions for the
-                    benefits of the forest, climate, and biodiversity, while benefiting local communities.
-                </h4>  
+        <section id="thematics">
+            <div class="container-fluid ">
+                <div class="row g-0 px-lg-5 py-lg-3 text-center fclila ">
+                    <p>
+                        <h4>
+                            Identifying and assessing environmental and social values to promote sustainability targets in accordance with 
+                            international and national standards.
+                        </h4> 
+                    </p>
+                </div>
             </div>
         </section>
         <!-- Services-->
         <section id="services">
             <div class="container-fluid">
-                <div class="row g-0 text-white text-center">
+                <div class="row g-0 text-white text-center py-lg-2">
                     <div class="col-lg-4 bg-primary">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/1.png">
                         </a>
                     </div>
                     <div class="col-lg-8 gx-4 bg-primary ">
@@ -45,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center mt-lg-2 ">
+                <div class="row g-0 fclila text-center py-lg-2">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -56,15 +60,15 @@
                         </p>
                     </div>
                     <div class="col-lg-4 ">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/2.png">
                         </a>
                     </div>
                 </div>
-                <div class="row g-0 text-white text-center ">
+                <div class="row g-0 text-white text-center py-lg-2">
                     <div class="col-lg-4 bg-primary">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/3.png">
                         </a>
                     </div>
                     <div class="col-lg-8 gx-4 bg-primary ">
@@ -77,7 +81,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center mt-lg-2 ">
+                <div class="row g-0 fclila text-center py-lg-2">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -88,14 +92,13 @@
                         </p>
                     </div>
                     <div class="col-lg-4 ">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box">
+                            <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/4.png">
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-        
         {{-- Include Portofolio --}}
         @include('layouts.portofolio')
         {{-- Include Footer --}}

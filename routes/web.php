@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome',['currentRouteName'=> '']);
+    return view('welcome',['currentRouteName'=> 'welcome']);
 });
 
 Route::get('/dashboard', function () {
@@ -30,21 +29,23 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/environmental-and-social-assesement', function () {
-    return view('esa');
-});
-Route::get('/data-analytics-and-system-development', function () {
-    return view('dasd');
-});
-Route::get('/organizational-change-management', function () {
-    return view('ocm');
-});
-Route::get('/capacity-building-and-technical-assistance', function () {
-    return view('cbta');
-});
-Route::get('/about-us', function () {
-    return view('about');
+    return view('esa',['currentRouteName'=> 'environmental']);
 });
 
-// Route::get('/environmental-and-social-assesement', [PageController::class, 'showEnvironment']);
+Route::get('/data-analytics-and-system-development', function () {
+    return view('dasd',['currentRouteName'=> 'data']);
+});
+
+Route::get('/organizational-change-management', function () {
+    return view('ocm',['currentRouteName'=> 'organizational']);
+});
+
+Route::get('/capacity-building-and-technical-assistance', function () {
+    return view('cbta',['currentRouteName'=> 'capacity']);
+});
+
+Route::get('/about-us', function () {
+    return view('about',['currentRouteName'=> 'about']);
+});
 
 require __DIR__.'/auth.php';

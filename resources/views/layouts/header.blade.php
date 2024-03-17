@@ -5,21 +5,22 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url('/#services') }}">Services</a></li>
+                @if ($currentRouteName === "environmental" || $currentRouteName === "data" || $currentRouteName === "organizational" || $currentRouteName === "capacity" )
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dd-font pe-3" href="{{ url('/environmental-and-social-assesement') }}">Environmental And Social Assessment</a></li>
+                            <li><a class="dropdown-item dd-font pe-3" href="{{ url('/data-analytics-and-system-development') }}">Data Analytics and System Development</a></li>
+                            <li><a class="dropdown-item dd-font pe-3" href="{{ url('/organizational-change-management') }}">Organizational Change Management</a></li>
+                            <li><a class="dropdown-item dd-font pe-3" href="{{ url('/capacity-building-and-technical-assistance') }}">Capacity Building and Technical Assistance</a></li>
+                        </ul>
+                    </li>
+                @else
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/#services') }}">Services</a></li>
+                @endif
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/about-us') }}">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{ url('/environmental-and-social-assesement') }}">Environmental And Social Assessment</a></li>
-                        <li><a class="dropdown-item" href="{{ url('/data-analytics-and-system-development') }}">Data Analytics and System Development</a></li>
-                        <li><a class="dropdown-item" href="{{ url('/organizational-change-management') }}">Organizational Change Management</a></li>
-                        <li><a class="dropdown-item" href="{{ url('/capacity-building-and-technical-assistance') }}">Capacity Building and Technical Assistance</a></li>
-                    </ul>
-                </li> 
             </ul>
         </div>
     </div>
