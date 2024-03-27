@@ -6,10 +6,10 @@
         @include('layouts.header')
         <!-- Masthead-->
         <header class="masthead bg_mast" id="masthead">
-            <div class="container px-lg-5 h-100 text-white">
-                <div class="row gx-lg-5 h-100 text-left ">
+            <div class="container px-lg-5 h-100 text-white" data-aos="fade-in" data-aos-delay="200">
+                <div class="row gx-lg-5 h-100 text-left " >
                     <div class="col-lg-8 align-self-end">
-                        <h1>Layanan Infini Lanskap</h1>
+                        <h1>Layana Infini Lanskap</h1>
                         <h3>A Nature-Based Solution Technology</h3>
                         <hr/>
                     </div>
@@ -26,12 +26,12 @@
         <!-- Thematics-->
         <section id="thematics">
             <div class="container-fluid ">
-                <div class="row g-0 px-lg-4 text-center">
+                <div class="row g-0 px-lg-4 text-center" >
                     <p>
                         <h2>Thematic Areas</h2><hr>
                     </p>
-                    <div class="row gx-4 py-4 px-lg-4 text-center ">
-                        <div class="col-lg-4 col-sm-6">
+                    <div class="row gx-4 py-4 px-lg-4 text-center " >
+                        <div class="col-lg-4 col-sm-6" data-aos="zoom-in">
                             <div>
                                 <img src="{{ asset('assets/img/icon/sfm.png') }}" class="icon-services mb-2"><br>
                             </div>
@@ -45,7 +45,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6" data-aos="zoom-in">
                             <div>
                                 <img src="{{ asset('assets/img/icon/er.png') }}" class="icon-services mb-2"><br>
                             </div>
@@ -59,7 +59,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6" data-aos="zoom-in">
                             <div>
                                 <img src="{{ asset('assets/img/icon/bc.png') }}" class="icon-services mb-2"><br>
                             </div>
@@ -89,7 +89,7 @@
                         </p>
                     </div>
                     <div class="row g-0 py-4 text-center ">
-                        <div class="col-lg-3 col-sm-6 my-2">
+                        <div class="col-lg-3 col-sm-6 my-2" data-aos="zoom-in-up">
                             <div class="rectangle br_esa">
                                 <p class="text-white mx-3">
                                     <b>ENVIRONMENTAL AND SOCIAL ASSESSMENT</b>
@@ -99,7 +99,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
+                        <div class="col-lg-3 col-sm-6 my-2" data-aos="zoom-in-up">
                             <div class="rectangle br_dasd">
                                 <p class="text-white mx-3">
                                     <b>DATA ANALYTICS AND SYSTEM DEVELOPMENT</b>
@@ -109,7 +109,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
+                        <div class="col-lg-3 col-sm-6 my-2" data-aos="zoom-in-up">
                             <div class="rectangle br_ocm">
                                 <p class="text-white mx-3">
                                     <b>ORGANIZATIONAL CHANGE MANAGEMENT</b>
@@ -119,7 +119,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
+                        <div class="col-lg-3 col-sm-6 my-2" data-aos="zoom-in-up">
                             <div class="rectangle br_cbta">
                                 <p class="text-white mx-2">
                                     <b>CAPACITY BUILDING AND TECHNICAL ASSISTANCE</b>
@@ -138,10 +138,10 @@
         <br>
         <!-- Client-->
         <section id="client">
-            <div class="container-fluid">
-                <div class="row g-0 px-4 px-lg-5  text-white bg-primary rounded-2">
+            <div class="container-fluid" >
+                <div class="row g-0 px-4 px-lg-5  text-white bg-primary rounded-2" >
                     <h2 class="my-3 text-center">Our Client</h2><hr>
-                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg">
+                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg" data-aos="zoom-in-down">
                         <p>
                         PT Parna Agromas (LG Group)<br>
                         PT Grand Utama Mandiri (LG Group)<br>
@@ -150,7 +150,7 @@
                         PT Sadhana Arifnusa (HM. Sampoerna Group)<br>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg">
+                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg" data-aos="zoom-in-down">
                         <p>
                         PT Parna Agromas (LG Group)<br>
                         PT Grand Utama Mandiri (LG Group)<br>
@@ -159,7 +159,7 @@
                         PT Sadhana Arifnusa (HM. Sampoerna Group)<br>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg">
+                    <div class="col-lg-4 col-sm-6 mb-3 lh-lg" data-aos="zoom-in-down">
                     <p>
                     WRI Indonesia<br>
                     KORINDO Group<br>

@@ -19,7 +19,7 @@
                     <li class="nav-item"><a class="nav-link" href="{{ url('/#services') }}">Services</a></li>
                 @endif
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ url('/about-us') }}">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>

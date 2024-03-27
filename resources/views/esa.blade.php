@@ -6,8 +6,8 @@
         @include('layouts.header')
         <!-- Masthead-->
         <header class="masthead bg_esa" id="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="container px-4 px-lg-5 h-100" >
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" data-aos="fade-in" data-aos-delay="200">
                     <div class="col-lg-12 align-self-end">
                         <h1 class="text-white font-weight-bold">Environmental and Social Assesment</h1>
                     </div>
@@ -33,7 +33,7 @@
         <!-- Services-->
         <section id="services">
             <div class="container-fluid">
-                <div class="row g-0 text-white text-center py-lg-2">
+                <div class="row g-0 text-white text-center py-lg-2" data-aos="fade-right" >
                     <div class="col-lg-4 bg-primary">
                         <a class="portfolio-box">
                             <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/1.png">
@@ -49,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center py-lg-2">
+                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-left">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -65,7 +65,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row g-0 text-white text-center py-lg-2">
+                <div class="row g-0 text-white text-center py-lg-2" data-aos="fade-right">
                     <div class="col-lg-4 bg-primary">
                         <a class="portfolio-box">
                             <img class="img-fluid" src="assets/img/portfolio/Environmental and Social Assesment/3.png">
@@ -81,7 +81,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center py-lg-2">
+                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-left">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>

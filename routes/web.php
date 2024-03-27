@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,8 +45,12 @@ Route::get('/capacity-building-and-technical-assistance', function () {
     return view('cbta',['currentRouteName'=> 'capacity']);
 });
 
-Route::get('/about-us', function () {
-    return view('about',['currentRouteName'=> 'about']);
-});
+// Route::get('/about-us', function () {
+//     return view('about',['currentRouteName'=> 'about']);
+// });
+
+// Route::get('/about', 'PageController@index')->name('about');
+Route::get('/about', [PageController::class, 'about'])->name('about');
+
 
 require __DIR__.'/auth.php';

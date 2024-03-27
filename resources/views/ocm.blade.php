@@ -6,8 +6,8 @@
         @include('layouts.header')
         <!-- Masthead-->
         <header class="masthead bg_ocm" id="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="container px-4 px-lg-5 h-100" >
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" data-aos="fade-in" data-aos-delay="200">
                     <div class="col-lg-12 align-self-end">
                         <h1 class="text-white font-weight-bold">Organizational Change Management</h1>
                     </div>
@@ -34,14 +34,15 @@
         <section id="services">
             <div class="container-fluid">
                 <div class="row g-0  mb-3 text-center">
-                    <div class="col-lg-12 ">
+                    <div class="col-lg-12 " data-aos="zoom-out">
                         <a class="portfolio-box">
                             <img class="img-fluid" src="assets/img/portfolio/Organizational Change Management/1.png">
                         </a>
                     </div>
                 </div>
                 <div class="row g-0 text-white text-center">
-                    <div class="col-lg-4 gx-4 bg-primary ">
+                    <div class="col-lg-4 gx-4 bg-primary " >
+                        <div data-aos="flip-left">
                         <p>
                             <br>
                             <h3>Organizational Management Review</h3>
@@ -49,17 +50,21 @@
                             Assessing the seven elements of organizational management regarding how they affect each other and how coherent the 
                             enterprise is when implementing the change.
                         </p>
+                        </div>
                     </div>
                     <div class="col-lg-4 gx-4 bg-primary ">
-                        <p>
-                            <br>
-                            <h3>Organizational Change Strategy</h3>
-                            <hr>
-                            Developing effective change management strategy and its action plan as a road map in executing and evaluating 
-                            change management within an enterprise.
-                        </p>
+                        <div data-aos="flip-left">
+                            <p>
+                                <br>
+                                <h3>Organizational Change Strategy</h3>
+                                <hr>
+                                Developing effective change management strategy and its action plan as a road map in executing and evaluating 
+                                change management within an enterprise.
+                            </p>    
+                        </div>
                     </div>
                     <div class="col-lg-4 gx-4 pb-2 bg-primary ">
+                        <div data-aos="flip-left">
                         <p>
                             <br>
                             <h3>Organizational Transition Actions Technical Assistance</h3>
@@ -67,6 +72,7 @@
                             Formulating step-by-step organizational transition actions and facilitating agile transition process to achieve 
                             the goals of organizational change management.
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
