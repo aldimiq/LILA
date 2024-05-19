@@ -133,11 +133,11 @@
                 </div>
             </div>
         </section>
-        {{-- Include Portofolio --}}
-        @include('layouts.portofolio')
+        {{-- Include Projects --}}
+        @include('layouts.projects')
         <br>
         <!-- Client-->
-        <section id="client">
+        {{-- <section id="client">
             <div class="container-fluid" >
                 <div class="row g-0 px-4 px-lg-5  text-white bg-primary rounded-2" >
                     <h2 class="my-3 text-center">Our Client</h2><hr>
@@ -169,7 +169,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
+
         {{-- Include Footer --}}
         @include('layouts.footer')
         

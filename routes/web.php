@@ -19,9 +19,17 @@ Route::get('/', function () {
     return view('welcome',['currentRouteName'=> 'welcome']);
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/admin/dashboard', function () {
+    return view('/admin/dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/admin/projects', function () {
+    return view('/admin/projects');
+})->middleware(['auth', 'verified'])->name('projects');
+
+Route::get('/admin/team', function () {
+    return view('/admin/team');
+})->middleware(['auth', 'verified'])->name('team');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -45,11 +53,10 @@ Route::get('/capacity-building-and-technical-assistance', function () {
     return view('cbta',['currentRouteName'=> 'capacity']);
 });
 
-// Route::get('/about-us', function () {
-//     return view('about',['currentRouteName'=> 'about']);
-// });
+Route::get('/projects', function () {
+    return view('projects',['currentRouteName'=> 'projects']);
+});
 
-// Route::get('/about', 'PageController@index')->name('about');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 
 

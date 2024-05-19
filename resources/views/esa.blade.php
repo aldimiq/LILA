@@ -99,8 +99,8 @@
                 </div>
             </div>
         </section>
-        {{-- Include Portofolio --}}
-        @include('layouts.portofolio')
+        {{-- Include Projects --}}
+        @include('layouts.projects')
         {{-- Include Footer --}}
         @include('layouts.footer')
     </body>

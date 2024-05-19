@@ -2,9 +2,9 @@
 <div id="portfolio">
     <div class="container-fluid p-2" >
         <p></p>
-        <h2 class="text-center mt-0 ">Portofolio</h2><hr>
+        <h2 class="text-center mt-0 ">Projects</h2><hr>
         <p></p> 
-        <div class="row g-0" data-aos="zoom-out">
+        <div class="row g-0" data-aos="zoom-in-up">
             <div class="col-lg-4 col-sm-6">
                 <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
                     <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />

@@ -49,7 +49,7 @@
                         <div class="col-lg-3 col-sm-6 my-2">
                             <div class="rectangle-avatar bg-primary">
                                 <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
                                     NAME<br>
                                     <b>POSITION</b>
                                 </p>
@@ -58,7 +58,7 @@
                         <div class="col-lg-3 col-sm-6 my-2">
                             <div class="rectangle-avatar bg-primary">
                                 <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
                                     NAME<br>
                                     <b>POSITION</b>
                                 </p>
@@ -67,7 +67,7 @@
                         <div class="col-lg-3 col-sm-6 my-2">
                             <div class="rectangle-avatar bg-primary">
                                 <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
                                     NAME<br>
                                     <b>POSITION</b>
                                 </p>
@@ -76,7 +76,7 @@
                         <div class="col-lg-3 col-sm-6 my-2">
                             <div class="rectangle-avatar bg-primary">
                                 <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/er.png') }}" class="avatar"><br><br>
+                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
                                     NAME<br>
                                     <b>POSITION</b>
                                 </p>
