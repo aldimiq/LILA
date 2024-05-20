@@ -46,42 +46,17 @@
                         </p>
                     </div>
                     <div class="row g-0 py-4 text-center " data-aos="fade-in">
+                        @foreach ($teams as $team)
                         <div class="col-lg-3 col-sm-6 my-2">
                             <div class="rectangle-avatar bg-primary">
                                 <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
-                                    NAME<br>
-                                    <b>POSITION</b>
+                                    <img src="{{ asset('storage/' . $team->photo) }}" class="avatar"><br><br>
+                                    {{ $team->name }}<br>
+                                    <b>{{ $team->position }}</b>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
-                            <div class="rectangle-avatar bg-primary">
-                                <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
-                                    NAME<br>
-                                    <b>POSITION</b>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
-                            <div class="rectangle-avatar bg-primary">
-                                <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
-                                    NAME<br>
-                                    <b>POSITION</b>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 my-2">
-                            <div class="rectangle-avatar bg-primary">
-                                <p class="text-white mx-3">
-                                    <img src="{{ asset('assets/img/icon/user.png') }}" class="avatar"><br><br>
-                                    NAME<br>
-                                    <b>POSITION</b>
-                                </p>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

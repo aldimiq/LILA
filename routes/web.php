@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,18 +25,13 @@ Route::get('/admin/dashboard', function () {
     return view('/admin/dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/admin/projects', function () {
-    return view('/admin/projects');
-})->middleware(['auth', 'verified'])->name('projects');
-
-Route::get('/admin/team', function () {
-    return view('/admin/team');
-})->middleware(['auth', 'verified'])->name('team');
-
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    
+    Route::resource('team', TeamController::class);
+    Route::resource('project', ProjectController::class);
 });
 
 Route::get('/environmental-and-social-assesement', function () {

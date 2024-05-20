@@ -17,17 +17,11 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                </div>
-                {{-- Projects --}}
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('projects')" :active="request()->routeIs('projects')">
+                    <x-nav-link :href="route('project.index')" :active="request()->routeIs('project.index')">
                         {{ __('Projects') }}
                     </x-nav-link>
-                </div>
-                {{-- team --}}
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('team')" :active="request()->routeIs('team')">
-                        {{ __('Team') }}
+                    <x-nav-link :href="route('team.index')" :active="request()->routeIs('team.index')">
+                        {{'Team' }}
                     </x-nav-link>
                 </div>
             </div>
@@ -84,11 +78,11 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('projects')" :active="request()->routeIs('projects')">
+            <x-responsive-nav-link :href="route('project.index')" :active="request()->routeIs('project.index')">
                 {{ __('Projects') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('team')" :active="request()->routeIs('team')">
-                {{ __('Team') }}
+            <x-responsive-nav-link :href="route('team.index')" :active="request()->routeIs('team.index')">
+                {{ 'Team' }}
             </x-responsive-nav-link>
         </div>
 

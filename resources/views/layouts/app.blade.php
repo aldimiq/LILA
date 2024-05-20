@@ -11,8 +11,10 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
+        {{-- Datatables --}}
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
         <!-- Scripts -->
+        
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
@@ -24,6 +26,12 @@
                 <header class="bg-white shadow">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
+
+                        @if (Session::has('notif.success'))
+                        <div class="bg-blue-300 mt-2 p-4">
+                            <span class="text-white">{{ Session::get('notif.success') }}</span>
+                        </div>
+                        @endif
                     </div>
                 </header>
             @endif
@@ -33,5 +41,11 @@
                 {{ $slot }}
             </main>
         </div>
+    {{-- Script --}}
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+    <script>
+      
+    </script>
     </body>
 </html>
