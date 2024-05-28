@@ -93,7 +93,7 @@
                             <div class="rectangle br_esa">
                                 <p class="text-white mx-3">
                                     <b>ENVIRONMENTAL AND SOCIAL ASSESSMENT</b>
-                                   <a href="{{ url('/environmental-and-social-assesement') }}">
+                                   <a href="{{ route('environmental') }}">
                                     <button class="button_service" style="vertical-align:middle" ><span>More Info </span></button>
                                    </a>
                                 </p>
@@ -103,7 +103,7 @@
                             <div class="rectangle br_dasd">
                                 <p class="text-white mx-3">
                                     <b>DATA ANALYTICS AND SYSTEM DEVELOPMENT</b>
-                                    <a href="{{ url('/data-analytics-and-system-development') }}">
+                                    <a href="{{ route('data_analytics') }}">
                                         <button class="button_service" style="vertical-align:middle" ><span>More Info </span></button>
                                     </a>
                                 </p>
@@ -113,7 +113,7 @@
                             <div class="rectangle br_ocm">
                                 <p class="text-white mx-3">
                                     <b>ORGANIZATIONAL CHANGE MANAGEMENT</b>
-                                    <a href="{{ url('/organizational-change-management') }}">
+                                    <a href="{{ route('organizational') }}">
                                         <button class="button_service" style="vertical-align:middle" ><span>More Info </span></button>
                                     </a>
                                 </p>
@@ -123,7 +123,7 @@
                             <div class="rectangle br_cbta">
                                 <p class="text-white mx-2">
                                     <b>CAPACITY BUILDING AND TECHNICAL ASSISTANCE</b>
-                                    <a href="{{ url('/capacity-building-and-technical-assistance') }}">
+                                    <a href="{{ route('capacity_building') }}">
                                         <button class="button_service" style="vertical-align:middle" ><span>More Info </span></button>
                                     </a>
                                 </p>

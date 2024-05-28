@@ -49,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-left">
+                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-down">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>
@@ -81,7 +81,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-left">
+                <div class="row g-0 fclila text-center py-lg-2" data-aos="fade-down">
                     <div class="col-lg-8 gx-4">
                         <p>
                             <br>

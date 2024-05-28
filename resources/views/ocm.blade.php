@@ -34,7 +34,7 @@
         <section id="services">
             <div class="container-fluid">
                 <div class="row g-0  mb-3 text-center">
-                    <div class="col-lg-12 " data-aos="zoom-out">
+                    <div class="col-lg-12 " data-aos="zoom-down">
                         <a class="portfolio-box">
                             <img class="img-fluid" src="assets/img/portfolio/Organizational Change Management/1.png">
                         </a>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="row g-0 text-white text-center">
                     <div class="col-lg-4 gx-4 bg-primary " >
-                        <div data-aos="flip-left">
+                        <div data-aos="flip-down">
                         <p>
                             <br>
                             <h3>Organizational Management Review</h3>

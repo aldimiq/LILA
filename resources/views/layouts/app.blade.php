@@ -7,14 +7,14 @@
 
         {{-- <title>{{ config('app.name', 'Laravel') }}</title> --}}
         <title>Dashboard</title>
-        <link rel="icon" type="image/x-icon" href="assets/lila.png" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('lila.ico') }}" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         {{-- Datatables --}}
         <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css" />
         <!-- Scripts -->
-        
+        <script src="https://cdn.ckeditor.com/ckeditor5/41.4.2/classic/ckeditor.js"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">

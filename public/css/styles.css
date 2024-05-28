@@ -79,7 +79,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
+  --bs-link-color: #198754;
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -11005,6 +11005,40 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+/* Masthead Project*/
+header.masthead_project {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead_project h1, header.masthead_project .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead_project {
+    height: 25vh;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead_project p {
+    font-size: 1.15rem;
+  }
+  header.masthead_project h1, header.masthead_project .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead_project h1, header.masthead_project .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
@@ -11160,7 +11194,17 @@ header.masthead h1, header.masthead .h1 {
   z-index: 1;
 }
 .avatar {
-  border-radius: 50%;
+  border-radius: 30%;
   width: 150px;
-  height: 150px;
+  height: 170px;
+}
+
+.image-container {
+  /* Set the width and/or height of the div */
+  width: 280px;  /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+
+  /* Make the image fit within the div */
+  overflow: hidden;
+  object-fit: cover; /* Or object-fit: contain; */
 }

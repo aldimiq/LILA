@@ -11,25 +11,20 @@ use App\Models\Team;
 use App\Http\Requests\Team\StoreRequest;
 use App\Http\Requests\Team\UpdateRequest;
 
-
-
 class TeamController extends Controller
 {
 
-    public function index(): Response
-    {
+    public function index(): Response{
         return response()->view('admin/team.index', [
             'teams' => Team::orderBy('updated_at', 'desc')->get(),
         ]);
     }
 
-    public function create(): Response
-    {
+    public function create(): Response{
         return response()->view('admin/team.form');
     }
 
-    public function store(StoreRequest $request): RedirectResponse
-    {
+    public function store(StoreRequest $request): RedirectResponse{
         $validated = $request->validated();
 
         if ($request->hasFile('photo')) {
@@ -51,22 +46,19 @@ class TeamController extends Controller
         return abort(500);
     }
 
-    public function show(string $id): Response
-    {
+    public function show(string $id): Response{
         return response()->view('admin/team.show', [
             'team' => Team::findOrFail($id),
         ]);
     }
 
-    public function edit(string $id): Response
-    {
+    public function edit(string $id): Response{
         return response()->view('admin/team.form', [
             'team' => Team::findOrFail($id),
         ]);
     }
 
-    public function update(UpdateRequest $request, string $id): RedirectResponse
-    {
+    public function update(UpdateRequest $request, string $id): RedirectResponse{
         $team = Team::findOrFail($id);
         $validated = $request->validated();
 
@@ -92,8 +84,7 @@ class TeamController extends Controller
         
     }
 
-    public function destroy(string $id): RedirectResponse
-    {
+    public function destroy(string $id): RedirectResponse{
         $team = Team::findOrFail($id);
 
         Storage::disk('public')->delete($team->photo);
